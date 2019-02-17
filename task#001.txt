@@ -1,3 +1,5 @@
+Azhar K
+CSD 16
 Script started on 2019-02-17 12:31:10+00:00
 ]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ ls
 result_CHN.pdf  s4d.txt  task#1
@@ -3059,7 +3061,8 @@ CHN17CS118
 CHN17CS119 
 CHN17CS120 
 ]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ awk '{print $1,$26}' cs.txt[Kt > reg.txt
-]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ sed[K[K[Kawk '{print $1,$26}' cs.txt > reg.txt[K [C[C[C[C[C[C[C[C[C[C[C[Cpaste -d'  ' cs.txt gpa.txtawk '{print $1 $33}' cs.txt0[C[C[C[C[C[C[C[C[C29[C[C[C[C[C[C[C[C[C8[C[C[C[C[C[C[C[C[C7[C[C[C[C[C[C[C[C[C5[C[C[C[C[C[C[C[C[C6[C[C[C[C[C[C[C[C[Cpaste -d'\t ' cs.txt gpa.txtsed $'s/[^[:print:]\t]//g' cs.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pcat gpa.txtsed $'s/[^[:print:]\t]//g' cs.txt[1P.txt[1P.txtr.txte.txtg.txt
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ sed[K[K[Kawk '{print $1,$26}' cs.txt > reg.txt[K [C[C[C[C[C[C[C[C[C[C[C[Cpaste -d'  ' cs.txt gpa.txtawk '{print $1 $33}' cs.txt0[C[C[C[C[C[C[C[C[C29[C[C[C[C[C[C[C[C[C8[C[C[C[C[C[C[C[C[C7[C[C[C[C[C[C[C[C[C5[C[C[C[C[C[C[C[C[C6[C[C[C[C[C[C[C[C[Cpaste -d'\t ' cs.txt gpa.txtsed $'s/[^[:print:]\t]//g' cs.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pcat gpa.txtsed $'s/[^[:print:]\t]//g' cs.txt[1P.txt[1P.txtr.txte.txtg.txt
 CHN17CS001 
 CHN17CS002 
 CHN17CS003 
@@ -3310,18 +3313,35 @@ CHN17CS120  3.8125
 awk: line 1: syntax error at or near print
 awk: line 2: missing } near end of file
 ]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ awk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++'print $2}' s4d.txt res.txt
- 
-gh]
-op
-'[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[K
-[K
-[K
-[K
-[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++'print $2}' s4d.txt res.txt
- 
-gh]
-op
-'[K[K[A[C[C[K[K[K[A[C[C[C[K[K[K[K[A[C[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@;[1@ [C[1P
+
+ 
+
+gh]
+
+op
+
+'
+[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[K
+
+[K
+
+[K
+
+[K
+
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++'print $2}' s4d.txt res.txt
+
+ 
+
+gh]
+
+op
+
+'
+[K[K[A[C[C[K
+[K[K[A[C[C[C[K[K
+[K[K[A[C
+[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@;[1@ [C[1P
 7.4375
 7.5
 6.9375
@@ -3378,7 +3398,8 @@ awk: line 2: missing } near end of file
 7.9375
 8.25
 5.375
-]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ awk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt > ccgpa.t xt
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ awk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt > ccgpa.t 
+xt
 ]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ paste -d [K[K[K[K[K[K[K[K[Kse [Kd 1d s4d.txt > finale[K.txt
 ]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ paste [K[K[K[K[K[Ks4d.txt[K[K[K[K[K[K[Kpaste -d'\t' s4d.txt[K[K[K[K[K[K[Kfinale.txt ccgpa.txt
 paste: finale.txt: No such file or directory
@@ -3446,16 +3467,29 @@ paste: finale.txt: No such file or directory
    61.     480/17   LCHN17CS121    AISWARYA J	
    62.     475/17   LCHN17CS123    HARIKRISHNAN U	
 	
-]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ paste -d'\t' final.txt ccgpa.txt[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Psed 1d s4d.txt > final.txtawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt > ccgpa.txxt[A]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P'
- 
-gh]
-op
-'[A[A[A[A]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ cat res.txt[K
-[K
-[K
-[K
-[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ paste -d'\t' final.txt ccgpa.txt[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Psed 1d s4d.txt > final.txtawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt > ccgpa.tx
+xt[A
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P'
+
+ 
+
+gh]
+
+op
+
+'[A[A[A[A
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ cat res.txt[K
+
+[K
+
+[K
+
+[K
+
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 CHN17CS001  7.75
 CHN17CS002  7.875
 CHN17CS003  7.25
@@ -3576,16 +3610,30 @@ CHN17CS117  7.9375
 CHN17CS118  8.25
 CHN17CS119  5.375
 CHN17CS120  3.8125
-]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ cat res.txtpaste -d'\t' final.txt ccgpa.txt[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Psed 1d s4d.txt > final.txtawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt > ccgpa.txxt[A]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P'
- 
-gh]
-op
-'[A[A[A[A]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ cat res.txt[K
-[K
-[K
-[K
-[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26@paste -d' ' reg.txt gpa.txt >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psed $'s/[^[:print:]\t]//g' reg.txt[1P.txt[1P.txt[1P.txtr.txte.txts.txt
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ cat res.txtpaste -d'\t' final.txt ccgpa.txt[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Psed 1d s4d.txt > final.txtawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt > ccgpa.tx
+xt[A
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P'
+
+ 
+
+gh]
+
+op
+
+'[A[A[A[A
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ cat res.txt[K
+
+[K
+
+[K
+
+[K
+
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26@paste -d' ' reg.txt gpa.txt >[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psed $'s/[^[:print:]\t]//g' reg.txt[1P.txt[1P.txt[1P.txtr.txte.txts.txt
 CHN17CS001  7.75
 CHN17CS002  7.875
 CHN17CS003  7.25
@@ -3706,32 +3754,73 @@ CHN17CS117  7.9375
 CHN17CS118  8.25
 CHN17CS119  5.375
 CHN17CS120  3.8125
-]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ sed $'s/[^[:print:]\t]//g' res.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kpaste -d'\t' final.txt ccgpa.txt[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Psed 1d s4d.txt > final.txtawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt > ccgpa.txxt[A]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C > ccgpa.txxt[A]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P'
- 
-gh]
-op
-'[A[A[A[A]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ cat res.txt[K
-[K
-[K
-[K
-[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26@paste -d' ' reg.txt gpa.txt >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++'print $2}' s4d.txt res.txt
- 
-gh]
-op
-'[A[A[A[A]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@; 
-[K
-[K
-[K
-[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C > ccgpa.txxt[A]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ sed 1d s4d.txt > final.txt[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpaste -d'\t' finale.txt ccgpa.txt[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pcat res.txt[23@sed $'s/[^[:print:]\t]//g'[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ sed $'s/[^[:print:]\t]//g' res.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kpaste -d'\t' final.txt ccgpa.txt[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Psed 1d s4d.txt > final.txtawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt > ccgpa.tx
+xt[A
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C > ccgpa.tx
+xt[A
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P'
+
+ 
+
+gh]
+
+op
+
+'[A[A[A[A
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ cat res.txt[K
+
+[K
+
+[K
+
+[K
+
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26@paste -d' ' reg.txt gpa.txt >[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++'print $2}' s4d.txt res.txt
+
+ 
+
+gh]
+
+op
+
+'[A[A[A[A
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@; 
+
+[K
+
+[K
+
+[K
+
+[K[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C > ccgpa.tx
+xt[A
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ sed 1d s4d.txt > final.txt[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpaste -d'\t' finale.txt ccgpa.txt[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pcat res.txt[23@sed $'s/[^[:print:]\t]//g'[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
 ccgpa.txt  cs.txt  final.txt  gpa.txt  reg.txt  res.txt  result_CHN.pdf  result_CHN.txt  s4d.txt  task#1
 ]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ em cgpa.txt[K[K[K[K[K[K[K[K[K[K[Krm ccgpa.txt
-]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ rm ccgpa.txtls[Ksed $'s/[^[:print:]\t]//g' res.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kpaste -d'\t' final.txt ccgpa.txt[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Psed 1d s4d.txt > final.txtawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt > ccgpa.txxt[A]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C > ccgpa.txxt
-]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ awk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt > ccgpa.txxt[A]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ rm ccgpa.txt[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ksed $'s/[^[:print:]\t]//g' res.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kpaste -d'\t' final.txt ccgpa.txt
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ rm ccgpa.txtls[Ksed $'s/[^[:print:]\t]//g' res.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kpaste -d'\t' final.txt ccgpa.txt[1@e[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Psed 1d s4d.txt > final.txtawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt > ccgpa.tx
+xt[A
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C > ccgpa.tx
+xt
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ awk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt > ccgpa.tx
+xt[A
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ rm ccgpa.txt[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ksed $'s/[^[:print:]\t]//g' res.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kpaste -d'\t' final.txt ccgpa.txt
    1.      411/17   CHN17CS004     ABIN THOMAS	7.4375
    2.      412/17   CHN17CS006     ADERSH A	7.5
    3.      347/17   CHN17CS013     ALEN ANTO ABRAHAM	6.9375
@@ -3980,12 +4069,26 @@ CHN17CS117  7.9375
 CHN17CS118  8.25
 CHN17CS119  5.375
 CHN17CS120  3.8125
-]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ cat res.txtfinal.txtpaste -d'\t' final.txt ccgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt > ccgpa.txxt[A]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ rm ccgpa.txt[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ksed $'s/[^[:print:]\t]//g' res.txt[C[C[C > resu.txt
-]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ sed $'s/[^[:print:]\t]//g' res.txt > resu.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kfinal.txtpaste -d'\t' final.txt ccgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt > ccgpa.txxt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu.txt > ccgpa.txt[A]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-
-]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ awk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt resu.txt > ccgpa.ttxt[A]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [48Psed $'s/[^[:print:]\t]//g' res.txt > resu.txt
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kfinal.txtpaste -d'\t' final.txt ccgpa.txt
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ cat res.txtfinal.txtpaste -d'\t' final.txt ccgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt > ccgpa.tx
+xt[A
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ rm ccgpa.txt[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Ksed $'s/[^[:print:]\t]//g' res.txt[C[C[C > resu.txt
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ sed $'s/[^[:print:]\t]//g' res.txt > resu.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kfinal.txtpaste -d'\t' final.txt ccgpa.txt[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt res.txt > ccgpa.tx
+xt
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu.txt > ccgpa.txt[A
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ awk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt resu.txt > ccgpa.t
+txt[A
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [48Psed $'s/[^[:print:]\t]//g' res.txt > resu.txt
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat res.txt[Kfinal.txtpaste -d'\t' final.txt ccgpa.txt
    1.      411/17   CHN17CS004     ABIN THOMAS	7.4375
    2.      412/17   CHN17CS006     ADERSH A	7.5
    3.      347/17   CHN17CS013     ALEN ANTO ABRAHAM	6.9375
@@ -4049,13 +4152,27 @@ CHN17CS120  3.8125
    61.     480/17   LCHN17CS121    AISWARYA J	
    62.     475/17   LCHN17CS123    HARIKRISHNAN U	
 	
-]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ paste -d'\t' final.txt ccgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt resu.txt > ccgpa.ttxt[A]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [61Ppaste -d'\t' final.txt ccgpa.txt
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kpaste -d'\t' final.txt ccgpa.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt resu.txt > ccgpa.ttxt[A]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [61Ppaste -d'\t' final.txt ccgpa.txt
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kpaste -d'\t' final.txt ccgpa.txt > F[Ks4d.[K_s1_result.txt
-]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ exit[K[K[K[Klog[K[K[Kexit[K[K[K[Ksed -i '1 i\Sl.No      Ad.No       Reg.No           Name              CGPA's4_[K[Kd[K4d_s1_result.txt[C s4d_s1_result.txt [A]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-
-]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ sed -i '1 i\Sl.No      Ad.No       Reg.No           Name              CGPA' s4d_s1_result.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat s1[K4d_s1_result.txt
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ paste -d'\t' final.txt ccgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt resu.txt > ccgpa.t
+txt[A
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [61Ppaste -d'\t' final.txt ccgpa.txt
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kpaste -d'\t' final.txt ccgpa.txt
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk 'NR==FNR {seen[$3]=1; next} seen[$1]==1 {seen[$2]++; print $2}' s4d.txt resu.txt > ccgpa.t
+txt[A
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [61Ppaste -d'\t' final.txt ccgpa.txt
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kpaste -d'\t' final.txt ccgpa.txt > F[Ks4d.[K_s1_result.txt
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ exit[K[K[K[Klog[K[K[Kexit[K[K[K[Ksed -i '1 i\Sl.No      Ad.No       Reg.No           Name              CGPA's4_[K[Kd[K4d_s1_result.txt[C s4d_s1_result.txt [A
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+]0;kazihar@DESKTOP-66TLBAL: ~[01;32mkazihar@DESKTOP-66TLBAL[00m:[01;34m~[00m$ sed -i '1 i\Sl.No      Ad.No       Reg.No           Name              CGPA' s4d_s1_result.txt 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat s1[K4d_s1_result.txt
 Sl.No      Ad.No       Reg.No           Name              CGPA
    1.      411/17   CHN17CS004     ABIN THOMAS	7.4375
    2.      412/17   CHN17CS006     ADERSH A	7.5
