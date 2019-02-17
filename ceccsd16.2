@@ -1,0 +1,105 @@
+Azhar K
+CSD 16
+Script started on Wed 01 Jan 2003 01:00:30 AM IST
+]0;s4db2@localhost:~[s4db2@localhost ~]$ cat > zi.txt
+a
+b
+c
+d
+e
+
+[1]+  Stopped                 cat >zi.txt
+]0;s4db2@localhost:~[s4db2@localhost ~]$ cat[K[K[Kcat > zi.txt[1Pi.txtxi.txt[s4db2@localhost ~]$ cat > xi[s4db2@localhost ~]$ cat > xi.[s4db2@localhost ~]$ cat > xi.t[s4db2@localhost ~]$ cat > xi.tx[s4db2@localhost ~]$ cat > xi.txt
+1
+2
+3
+4
+5
+
+[2]+  Stopped                 cat >xi.txt
+]0;s4db2@localhost:~[s4db2@localhost ~]$ paste zi.txt xi.txt
+a	1
+b	2
+c	3
+d	4
+e	5
+]0;s4db2@localhost:~[s4db2@localhost ~]$ cat zi.txt
+a
+b
+c
+d
+e
+]0;s4db2@localhost:~[s4db2@localhost ~]$ cat zi.txt[1Pi.txtxi.txt
+1
+2
+3
+4
+5
+]0;s4db2@localhost:~[s4db2@localhost ~]$ ls
+[00m[00mceccsd16.2[00m  [00;34mDesktop[00m  [00mxi.txt[00m  [00mzi.txt[00m
+[m]0;s4db2@localhost:~[s4db2@localhost ~]$ ls -l
+[00mtotal 28
+-rw-rw-r--  1 s4db2 s4db2    0 Jan  1 01:00 [00mceccsd16.2[00m
+drwxr-xr-x  2 s4db2 s4db2 4096 Jan  1 00:39 [00;34mDesktop[00m
+-rw-rw-r--  1 s4db2 s4db2   10 Jan  1 01:00 [00mxi.txt[00m
+-rw-rw-r--  1 s4db2 s4db2   10 Jan  1 01:00 [00mzi.txt[00m
+[m]0;s4db2@localhost:~[s4db2@localhost ~]$ ls -lt
+[00mtotal 28
+-rw-rw-r--  1 s4db2 s4db2   10 Jan  1 01:00 [00mxi.txt[00m
+-rw-rw-r--  1 s4db2 s4db2   10 Jan  1 01:00 [00mzi.txt[00m
+-rw-rw-r--  1 s4db2 s4db2    0 Jan  1 01:00 [00mceccsd16.2[00m
+drwxr-xr-x  2 s4db2 s4db2 4096 Jan  1 00:39 [00;34mDesktop[00m
+[m]0;s4db2@localhost:~[s4db2@localhost ~]$ ls -ltr
+[00mtotal 28
+drwxr-xr-x  2 s4db2 s4db2 4096 Jan  1 00:39 [00;34mDesktop[00m
+-rw-rw-r--  1 s4db2 s4db2    0 Jan  1 01:00 [00mceccsd16.2[00m
+-rw-rw-r--  1 s4db2 s4db2   10 Jan  1 01:00 [00mzi.txt[00m
+-rw-rw-r--  1 s4db2 s4db2   10 Jan  1 01:00 [00mxi.txt[00m
+[m]0;s4db2@localhost:~[s4db2@localhost ~]$ ls -l zi.txt
+[00m-rw-rw-r--  1 s4db2 s4db2 10 Jan  1 01:00 [00mzi.txt[00m
+[m]0;s4db2@localhost:~[s4db2@localhost ~]$ grep a zi.txt
+a
+]0;s4db2@localhost:~[s4db2@localhost ~]$ grep 8 xi.txt
+]0;s4db2@localhost:~[s4db2@localhost ~]$ grep 5 *.txt -c
+xi.txt:1
+zi.txt:0
+]0;s4db2@localhost:~[s4db2@localhost ~]$ pwd
+/home/s4db2
+]0;s4db2@localhost:~[s4db2@localhost ~]$ ls
+[00m[00mceccsd16.2[00m  [00;34mDesktop[00m  [00mxi.txt[00m  [00mzi.txt[00m
+[m]0;s4db2@localhost:~[s4db2@localhost ~]$ ln -s test p[Kt
+]0;s4db2@localhost:~[s4db2@localhost ~]$ ls
+[00m[00mceccsd16.2[00m  [00;34mDesktop[00m  [01;05;37;41mt[00m  [00mxi.txt[00m  [00mzi.txt[00m
+[m]0;s4db2@localhost:~[s4db2@localhost ~]$ rm t
+]0;s4db2@localhost:~[s4db2@localhost ~]$  ls
+[00m[00mceccsd16.2[00m  [00;34mDesktop[00m  [00mxi.txt[00m  [00mzi.txt[00m
+[m]0;s4db2@localhost:~[s4db2@localhost ~]$ ln [K[K[Kls Desktop
+[00m[00mcat[00m  [00mcecs4d16[00m  [00mxi.txt[00m  [00mzi.txt[00m
+[m]0;s4db2@localhost:~[s4db2@localhost ~]$ ln -s zi.txt
+ln: `./zi.txt': File exists
+]0;s4db2@localhost:~[s4db2@localhost ~]$ uname
+Linux
+]0;s4db2@localhost:~[s4db2@localhost ~]$ uname -a
+Linux localhost.localdomain 2.6.9-5.ELsmp #1 SMP Wed Jan 5 19:30:39 EST 2005 i686 i686 i386 GNU/Linux
+]0;s4db2@localhost:~[s4db2@localhost ~]$ cat zi.txt -n
+     1	a
+     2	b
+     3	c
+     4	d
+     5	e
+]0;s4db2@localhost:~[s4db2@localhost ~]$ free
+             total       used       free     shared    buffers     cached
+Mem:       1026548     358380     668168          0      27092     176748
+-/+ buffers/cache:     154540     872008
+Swap:      2096440          0    2096440
+]0;s4db2@localhost:~[s4db2@localhost ~]$ free -m
+             total       used       free     shared    buffers     cached
+Mem:          1002        349        652          0         26        172
+-/+ buffers/cache:        150        851
+Swap:         2047          0       2047
+]0;s4db2@localhost:~[s4db2@localhost ~]$ exit
+exit
+There are stopped jobs.
+]0;s4db2@localhost:~[s4db2@localhost ~]$ exit
+
+Script done on Wed 01 Jan 2003 01:03:27 AM IST

@@ -1,0 +1,31 @@
+Azhar K
+CSD 16
+Script started on Wed 01 Jan 2003 01:25:56 AM IST
+]0;s4db2@localhost:~[s4db2@localhost ~]$ ll
+[00mtotal 52
+-rw-rw-r--  1 s4db2 s4db2    0 Jan  1 01:25 [00malias[00m
+-rw-rw-r--  1 s4db2 s4db2 4089 Jan  1 01:03 [00mceccsd16.2[00m
+-rw-rw-r--  1 s4db2 s4db2 1133 Jan  1 01:23 [00mceccsd16.3[00m
+drwxr-xr-x  2 s4db2 s4db2 4096 Jan  1 00:39 [00;34mDesktop[00m
+-rw-rw-r--  1 s4db2 s4db2   10 Jan  1 01:00 [00mxi.txt[00m
+-rw-rw-r--  1 s4db2 s4db2   18 Jan  1 01:11 [00myi.txt[00m
+-rw-rw-r--  1 s4db2 s4db2   10 Jan  1 01:00 [00mzi.txt[00m
+[m]0;s4db2@localhost:~[s4db2@localhost ~]$ unalias ll
+]0;s4db2@localhost:~[s4db2@localhost ~]$ ll
+bash: ll: command not found
+]0;s4db2@localhost:~[s4db2@localhost ~]$ alias ll='ls'[K[Ks'
+]0;s4db2@localhost:~[s4db2@localhost ~]$ ll
+[00m[00malias[00m  [00mceccsd16.2[00m  [00mceccsd16.3[00m  [00;34mDesktop[00m  [00mxi.txt[00m  [00myi.txt[00m  [00mzi.txt[00m
+[m]0;s4db2@localhost:~[s4db2@localhost ~]$ alias ll=''s-lt[K[K[K[K[Kls-[K -l'
+]0;s4db2@localhost:~[s4db2@localhost ~]$ ll
+[00mtotal 52
+-rw-rw-r--  1 s4db2 s4db2    0 Jan  1 01:25 [00malias[00m
+-rw-rw-r--  1 s4db2 s4db2 4089 Jan  1 01:03 [00mceccsd16.2[00m
+-rw-rw-r--  1 s4db2 s4db2 1133 Jan  1 01:23 [00mceccsd16.3[00m
+drwxr-xr-x  2 s4db2 s4db2 4096 Jan  1 00:39 [00;34mDesktop[00m
+-rw-rw-r--  1 s4db2 s4db2   10 Jan  1 01:00 [00mxi.txt[00m
+-rw-rw-r--  1 s4db2 s4db2   18 Jan  1 01:11 [00myi.txt[00m
+-rw-rw-r--  1 s4db2 s4db2   10 Jan  1 01:00 [00mzi.txt[00m
+[m]0;s4db2@localhost:~[s4db2@localhost ~]$ exit
+
+Script done on Wed 01 Jan 2003 01:26:42 AM IST
