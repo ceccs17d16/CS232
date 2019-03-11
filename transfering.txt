@@ -1,0 +1,52 @@
+Script started on Wed 01 Jan 2003 02:18:05 AM IST
+]0;s4db2@localhost:~[s4db2@localhost ~]$ ssh cs17d@[K16@1920[K.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d16@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+275 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Mar 11 11:12:58 2019 from 192.168.0.156
+$ ls
+examples.desktop  sort.txt  test.txt
+$ scp s4db2@192.168.0.156:/home/s4db2/yi.txt /home/cs17d16
+s4db2@192.168.0.156's password: 
+yi.txt                                          0%    0     0.0KB/s   --:-- ETAyi.txt                                        100%   18     0.0KB/s   00:00    
+$ ls
+examples.desktop  sort.txt  test.txt  yi.txt
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4db2@localhost:~[s4db2@localhost ~]$ sftp cs17d16@192.168.0.30
+Connecting to 192.168.0.30...
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d16@192.168.0.30's password: 
+sftp> put alias
+Uploading alias to /home/cs17d16/alias
+alias                                           0%    0     0.0KB/s   --:-- ETAalias                                         100% 1649     1.6KB/s   00:00    
+sftp> ls
+alias               examples.desktop    sort.txt            test.txt            
+yi.txt              
+sftp> get yi.txt
+Fetching /home/cs17d16/yi.txt to yi.txt
+/home/cs17d16/yi.txt                            0%    0     0.0KB/s   --:-- ETA/home/cs17d16/yi.txt                          100%   18     0.0KB/s   00:00    
+sftp> put xi.txt
+Uploading xi.txt to /home/cs17d16/xi.txt
+xi.txt                                          0%    0     0.0KB/s   --:-- ETAxi.txt                                        100%   10     0.0KB/s   00:00    
+sftp> get xi.txt
+Fetching /home/cs17d16/xi.txt to xi.txt
+/home/cs17d16/xi.txt                            0%    0     0.0KB/s   --:-- ETA/home/cs17d16/xi.txt                          100%   10     0.0KB/s   00:00    
+sftp> bye
+]0;s4db2@localhost:~[s4db2@localhost ~]$ exit
+
+Script done on Wed 01 Jan 2003 02:20:55 AM IST
