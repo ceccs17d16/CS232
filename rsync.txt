@@ -1,5 +1,9 @@
+Azhar K
+CSD 16
 Script started on Wed 01 Jan 2003 02:52:24 AM IST
-]0;s4db2@localhost:~[s4db2@localhost ~]$ exitscript transferingclear[Kssh cs17d16@192.168.0.30[s4db2@localhost ~]$ clear[Kscript transferingexit[K[Krsync -avz ceccsd16.2 cs17d16@192.168.0.30:/home/cs17d16
+]0;s4db2@localhost:~[s4db2@localhost ~]$ exitscript transferingclear[Kssh cs17d16@192.168.0.30
+
+[s4db2@localhost ~]$ clear[Kscript transferingexit[K[Krsync -avz ceccsd16.2 cs17d16@192.168.0.30:/home/cs17d16
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -24,11 +28,13 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 275 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Mar 11 11:27:53 2019 from 192.168.0.156
+Last login: Mon Mar 11 11:27:53 2019 from 192.168.0.156
+
 $ ls
 alias  ceccsd16.2  examples.desktop  sort.txt  test.txt  xi.txt  yi.txt
 $ exit
-Connection to 192.168.0.30 closed.
+Connection to 192.168.0.30 closed.
+
 ]0;s4db2@localhost:~[s4db2@localhost ~]$ exit
 
 Script done on Wed 01 Jan 2003 02:54:17 AM IST
