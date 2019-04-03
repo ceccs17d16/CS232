@@ -1,0 +1,62 @@
+Script started on Mon 25 Mar 2019 11:52:10 AM EDT
+]0;s4db1@localhost:/home/s4db1[?1034h[root@localhost s4db1]# exitkoch.txtls[Kkoch.txt[4Pexitkoch.txtls[Kkoch.txt[4Pexit[Kifconfig eth0 192.168.0.16 netmask 255.255.255.0
+]0;s4db1@localhost:/home/s4db1[root@localhost s4db1]# ifconfig
+eth0      Link encap:Ethernet  HWaddr 10:78:D2:E0:AD:D6  
+          inet addr:192.168.0.16  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::1278:d2ff:fee0:add6/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:39421 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4324 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:6379904 (6.0 MiB)  TX bytes:548803 (535.9 KiB)
+          Interrupt:20 Memory:fbbc0000-fbbe0000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:596 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:596 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:52809 (51.5 KiB)  TX bytes:52809 (51.5 KiB)
+
+]0;s4db1@localhost:/home/s4db1[root@localhost s4db1]# ping 192.168.0.7
+PING 192.168.0.7 (192.168.0.7) 56(84) bytes of data.
+64 bytes from 192.168.0.7: icmp_req=1 ttl=64 time=0.889 ms
+64 bytes from 192.168.0.7: icmp_req=2 ttl=64 time=0.293 ms
+64 bytes from 192.168.0.7: icmp_req=3 ttl=64 time=0.199 ms
+64 bytes from 192.168.0.7: icmp_req=4 ttl=64 time=0.306 ms
+64 bytes from 192.168.0.7: icmp_req=5 ttl=64 time=0.179 ms
+64 bytes from 192.168.0.7: icmp_req=6 ttl=64 time=0.300 ms
+64 bytes from 192.168.0.7: icmp_req=7 ttl=64 time=0.200 ms
+^Z
+[1]+  Stopped                 ping 192.168.0.7
+]0;s4db1@localhost:/home/s4db1[root@localhost s4db1]# ssh 19[K[Ks4db1@192.168.0.7
+s4db1@192.168.0.7's password: 
+Last login: Mon Mar 25 11:44:06 2019 from 192.168.0.16
+]0;s4db1@localhost:~[?1034h[s4db1@localhost ~]$ ls
+8.txt  [0m[01;34mDesktop[0m    [01;34mDownloads[0m  hello.txt  [01;34mPictures[0m  [01;34mTemplates[0m
+a.txt  [01;34mDocuments[0m  error.txt  [01;34mMusic[0m      [01;34mPublic[0m    [01;34mVideos[0m
+]0;s4db1@localhost:~[s4db1@localhost ~]$ cat > azhar.tst[K[Kxt
+hell    helloiiiiiii
+^Z
+[1]+  Stopped                 cat > azhar.txt
+]0;s4db1@localhost:~[s4db1@localhost ~]$ ls
+8.txt  azhar.txt  [0m[01;34mDocuments[0m  error.txt  [01;34mMusic[0m     [01;34mPublic[0m     [01;34mVideos[0m
+a.txt  [01;34mDesktop[0m    [01;34mDownloads[0m  hello.txt  [01;34mPictures[0m  [01;34mTemplates[0m
+]0;s4db1@localhost:~[s4db1@localhost ~]$ exit
+logout
+There are stopped jobs.
+]0;s4db1@localhost:~[s4db1@localhost ~]$ exit
+logout
+Connection to 192.168.0.7 closed.
+]0;s4db1@localhost:/home/s4db1[root@localhost s4db1]# ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m  ifconfig  [01;34mMusic[0m     [01;34mPublic[0m    [01;34mTemplates[0m  [01;34mVideos[0m
+[01;34mDocuments[0m  hub        koch.txt  [01;34mPictures[0m  sort.txt  test.txt   xi.txt
+]0;s4db1@localhost:/home/s4db1[root@localhost s4db1]# exit
+exit
+There are stopped jobs.
+]0;s4db1@localhost:/home/s4db1[root@localhost s4db1]# exit
+exit
+
+Script done on Mon 25 Mar 2019 11:56:36 AM EDT
