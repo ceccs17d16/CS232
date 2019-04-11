@@ -1,0 +1,20 @@
+ sftp cs17d16@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d16@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put home/clab1/Downloads/index.html
+stat home/clab1/Downloads/index.html: No such file or directory
+sftp> put /home/clab1/Downloads/index.html
+Uploading /home/clab1/Downloads/index.html to /home/cs17d16/index.html
+/home/clab1/Downloads/index.html              100% 6214     6.1KB/s   00:00    
+sftp> put /home/clab1/Downloads/style.css
+Uploading /home/clab1/Downloads/style.css to /home/cs17d16/style.css
+/home/clab1/Downloads/style.css               100%  425     0.4KB/s   00:00    
+sftp> put /home/clab1/Downloads/script.js
+Uploading /home/clab1/Downloads/script.js to /home/cs17d16/script.js
+/home/clab1/Downloads/script.js               100%  153     0.2KB/s   00:00    
+sftp> exit
