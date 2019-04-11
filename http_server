@@ -1,0 +1,226 @@
+Azhar K
+S4d 16
+clab1@clab1-Veriton-Series:~$ sudo ufw app list
+[sudo] password for clab1: 
+Available applications:
+  CUPS
+  Nginx Full
+  Nginx HTTP
+  Nginx HTTPS
+clab1@clab1-Veriton-Series:~$ sudo ufw status
+Status: inactive
+clab1@clab1-Veriton-Series:~$ systemctl status nginx
+● nginx.service - A high performance web server and a reverse proxy server
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: en
+   Active: inactive (dead) since Thu 2019-04-11 16:37:48 IST; 1min 21s ago
+  Process: 5770 ExecStop=/sbin/start-stop-daemon --quiet --stop --retry QUIT/5 -
+  Process: 5596 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code
+  Process: 5593 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process 
+ Main PID: 5597 (code=exited, status=0/SUCCESS)
+
+Apr 11 16:32:52 clab1-Veriton-Series systemd[1]: Starting A high performance web
+Apr 11 16:32:52 clab1-Veriton-Series systemd[1]: Started A high performance web 
+Apr 11 16:37:48 clab1-Veriton-Series systemd[1]: Stopping A high performance web
+Apr 11 16:37:48 clab1-Veriton-Series systemd[1]: Stopped A high performance web 
+
+[1]+  Stopped                 systemctl status nginx
+clab1@clab1-Veriton-Series:~$ sudo ufw allow 'Nginx HTTP'
+Rules updated
+Rules updated (v6)
+clab1@clab1-Veriton-Series:~$ sudo ufw status
+Status: inactive
+clab1@clab1-Veriton-Series:~$ systemctl status nginx
+● nginx.service - A high performance web server and a reverse proxy server
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: en
+   Active: inactive (dead) since Thu 2019-04-11 16:37:48 IST; 1min 41s ago
+  Process: 5770 ExecStop=/sbin/start-stop-daemon --quiet --stop --retry QUIT/5 -
+  Process: 5596 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code
+  Process: 5593 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process 
+ Main PID: 5597 (code=exited, status=0/SUCCESS)
+
+Apr 11 16:32:52 clab1-Veriton-Series systemd[1]: Starting A high performance web
+Apr 11 16:32:52 clab1-Veriton-Series systemd[1]: Started A high performance web 
+Apr 11 16:37:48 clab1-Veriton-Series systemd[1]: Stopping A high performance web
+Apr 11 16:37:48 clab1-Veriton-Series systemd[1]: Stopped A high performance web 
+lines 1-12/12 (END)
+[2]+  Stopped                 systemctl status nginx
+^Z
+
+clab1@clab1-Veriton-Series:~$ systemctl status nginx
+● nginx.service - A high performance web server and a reverse proxy server
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: en
+   Active: inactive (dead) since Thu 2019-04-11 16:37:48 IST; 2min 3s ago
+  Process: 5770 ExecStop=/sbin/start-stop-daemon --quiet --stop --retry QUIT/5 -
+  Process: 5596 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code
+  Process: 5593 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process 
+ Main PID: 5597 (code=exited, status=0/SUCCESS)
+
+Apr 11 16:32:52 clab1-Veriton-Series systemd[1]: Starting A high performance web
+Apr 11 16:32:52 clab1-Veriton-Series systemd[1]: Started A high performance web 
+Apr 11 16:37:48 clab1-Veriton-Series systemd[1]: Stopping A high performance web
+Apr 11 16:37:48 clab1-Veriton-Series systemd[1]: Stopped A high performance web 
+...skipping...
+● nginx.service - A high performance web server and a reverse proxy server
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: en
+   Active: inactive (dead) since Thu 2019-04-11 16:37:48 IST; 2min 3s ago
+  Process: 5770 ExecStop=/sbin/start-stop-daemon --quiet --stop --retry QUIT/5 -
+  Process: 5596 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code
+  Process: 5593 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process 
+ Main PID: 5597 (code=exited, status=0/SUCCESS)
+
+Apr 11 16:32:52 clab1-Veriton-Series systemd[1]: Starting A high performance web
+Apr 11 16:32:52 clab1-Veriton-Series systemd[1]: Started A high performance web 
+Apr 11 16:37:48 clab1-Veriton-Series systemd[1]: Stopping A high performance web
+Apr 11 16:37:48 clab1-Veriton-Series systemd[1]: Stopped A high performance web 
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+ ESCOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+● nginx.service - A high performance web server and a reverse proxy server
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: en
+   Active: inactive (dead) since Thu 2019-04-11 16:37:48 IST; 2min 3s ago
+  Process: 5770 ExecStop=/sbin/start-stop-daemon --quiet --stop --retry QUIT/5 -
+  Process: 5596 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code
+  Process: 5593 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process 
+ Main PID: 5597 (code=exited, status=0/SUCCESS)
+
+Apr 11 16:32:52 clab1-Veriton-Series systemd[1]: Starting A high performance web
+Apr 11 16:32:52 clab1-Veriton-Series systemd[1]: Started A high performance web 
+Apr 11 16:37:48 clab1-Veriton-Series systemd[1]: Stopping A high performance web
+Apr 11 16:37:48 clab1-Veriton-Series systemd[1]: Stopped A high performance web 
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+lines 1-12/12 (END)
+[3]+  Stopped                 systemctl status nginx
+^Z^[[A
+systemctl status nginx
+● nginx.service - A high performance web server and a reverse proxy server
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: en
+   Active: inactive (dead) since Thu 2019-04-11 16:37:48 IST; 2min 10s ago
+  Process: 5770 ExecStop=/sbin/start-stop-daemon --quiet --stop --retry QUIT/5 -
+  Process: 5596 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code
+  Process: 5593 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process 
+ Main PID: 5597 (code=exited, status=0/SUCCESS)
+
+Apr 11 16:32:52 clab1-Veriton-Series systemd[1]: Starting A high performance web
+Apr 11 16:32:52 clab1-Veriton-Series systemd[1]: Started A high performance web 
+Apr 11 16:37:48 clab1-Veriton-Series systemd[1]: Stopping A high performance web
+Apr 11 16:37:48 clab1-Veriton-Series systemd[1]: Stopped A high performance web 
+
+[4]+  Stopped                 systemctl status nginx
+clab1@clab1-Veriton-Series:~$ systemctl start nginx
+clab1@clab1-Veriton-Series:~$ systemctl status nginx
+● nginx.service - A high performance web server and a reverse proxy server
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: en
+   Active: active (running) since Thu 2019-04-11 16:40:23 IST; 3s ago
+  Process: 5770 ExecStop=/sbin/start-stop-daemon --quiet --stop --retry QUIT/5 -
+  Process: 5875 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code
+  Process: 5873 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process 
+ Main PID: 5877 (nginx)
+   CGroup: /system.slice/nginx.service
+           ├─5877 nginx: master process /usr/sbin/nginx -g daemon on; master_pro
+           ├─5878 nginx: worker process                           
+           └─5879 nginx: worker process                           
+
+Apr 11 16:40:23 clab1-Veriton-Series systemd[1]: Starting A high performance web
+Apr 11 16:40:23 clab1-Veriton-Series systemd[1]: Started A high performance web 
+
+[5]+  Stopped                 systemctl status nginx
+clab1@clab1-Veriton-Series:~$ sudo mkdir -p /var/www/example.com/html
+clab1@clab1-Veriton-Series:~$ rm /var/www/example.com/html
+rm: cannot remove '/var/www/example.com/html': Is a directory
+clab1@clab1-Veriton-Series:~$ sudo rm /var/www/example.com/html
+rm: cannot remove '/var/www/example.com/html': Is a directory
+clab1@clab1-Veriton-Series:~$ sudo rm var
+rm: cannot remove 'var': No such file or directory
+clab1@clab1-Veriton-Series:~$ sudo chown -R $USER:$USER /var/www/example.com/html
+clab1@clab1-Veriton-Series:~$ sudo chmod -R 755 /var/www/example.com
+clab1@clab1-Veriton-Series:~$ gedit /var/www/example.com/html/index.html
+
+(gedit:5913): Gtk-WARNING **: Attempting to read the recently used resources file at '/home/clab1/.local/share/recently-used.xbel', but the parser failed: Failed to open file '/home/clab1/.local/share/recently-used.xbel': Permission denied.
+^Z
+[6]+  Stopped                 gedit /var/www/example.com/html/index.html
+clab1@clab1-Veriton-Series:~$ sudo gedit /var/www/example.com/html/index.html
+
+** (gedit:5925): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5925): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+^C
+clab1@clab1-Veriton-Series:~$ sudo gedit  /etc/nginx/sites-available/example.com 
+
+(gedit:6000): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:6000): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:6000): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
+
+^Z
+[7]+  Stopped                 sudo gedit /etc/nginx/sites-available/example.com
+clab1@clab1-Veriton-Series:~$ sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
+clab1@clab1-Veriton-Series:~$ sudo nano /etc/nginx/nginx.conf
+clab1@clab1-Veriton-Series:~$ sudo nginx -t
+nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
+nginx: configuration file /etc/nginx/nginx.conf test is successful
+clab1@clab1-Veriton-Series:~$ udo systemctl restart nginx
+The program 'udo' is currently not installed. You can install it by typing:
+sudo apt install udo
+clab1@clab1-Veriton-Series:~$ sudo systemctl restart nginx
+clab1@clab1-Veriton-Series:~$ systemctl status nginx
+● nginx.service - A high performance web server and a reverse proxy server
+   Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: en
+   Active: active (running) since Thu 2019-04-11 16:45:01 IST; 56s ago
+  Process: 6020 ExecStop=/sbin/start-stop-daemon --quiet --stop --retry QUIT/5 -
+  Process: 6026 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code
+  Process: 6022 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process 
+ Main PID: 6027 (nginx)
+   CGroup: /system.slice/nginx.service
+           ├─6027 nginx: master process /usr/sbin/nginx -g daemon on; master_pro
+           ├─6028 nginx: worker process                           
+           └─6029 nginx: worker process                           
+
+Apr 11 16:45:01 clab1-Veriton-Series systemd[1]: Starting A high performance web
+Apr 11 16:45:01 clab1-Veriton-Series systemd[1]: Started A high performance web 
+
+[8]+  Stopped                 systemctl status nginx
