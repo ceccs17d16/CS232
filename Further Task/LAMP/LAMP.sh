@@ -16,3 +16,5 @@ sudo nano /etc/apache2/mods-enabled/dir.conf
 sudo service apache2 restart
 
 sudo nano /var/www/html/info.php
+
+firefox http://localhost/info.php
