@@ -1,49 +1,0 @@
-Azhar K
-CS-D 16
-
-Script started on Wed 01 Jan 2003 01:21:41 AM IST
-]0;s4db2@localhost:~[s4db2@localhost ~]$ sort -n zi.txt[K[K[Kxi.txt[s4db2@localhost ~]$ sort -n zi.[1Pxi.txt[1Pxi.txt[1Pxi.txt
-1
-2
-3
-4
-5
-]0;s4db2@localhost:~[s4db2@localhost ~]$ sort -n xi.txt[1Pi.txtyi.txt
-1
-2
-4
-7
-8
-9
-12
-65
-]0;s4db2@localhost:~[s4db2@localhost ~]$ sort[K[K[K[Kcat yi.txt
-1
-7
-4
-9
-2
-8
-65
-12
-]0;s4db2@localhost:~[s4db2@localhost ~]$ sort -nk7 yi.txt
-1
-12
-2
-4
-65
-7
-8
-9
-]0;s4db2@localhost:~[s4db2@localhost ~]$ sort -nk7 yi.txt[4hr[4l[1P[s4db2@localhost ~]$ sort -[4hr[4l[s4db2@localhost ~]$ sort -rn[s4db2@localhost ~]$ sort -rnk[s4db2@localhost ~]$ sort -rnk7[s4db2@localhost ~]$ sort -rnk7 [s4db2@localhost ~]$ sort -rnk7 y[s4db2@localhost ~]$ sort -rnk7 yi[s4db2@localhost ~]$ sort -rnk7 yi.[s4db2@localhost ~]$ sort -rnk7 yi.t[s4db2@localhost ~]$ sort -rnk7 yi.tx[s4db2@localhost ~]$ sort -rnk7 yi.txt
-9
-8
-7
-65
-4
-2
-12
-1
-]0;s4db2@localhost:~[s4db2@localhost ~]$ exit
-
-Script done on Wed 01 Jan 2003 01:23:19 AM IST
